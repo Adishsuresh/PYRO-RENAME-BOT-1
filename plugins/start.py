@@ -6,7 +6,7 @@ from helper.txt import mr
 from helper.database import insert 
 from helper.utils import not_subscribed 
 
-START_PIC = environ.get("START_PIC", "https://telegra.ph/file/fcded7a782fe7381e2177.jpg")
+START_PIC = environ.get("START_PIC", "https://telegra.ph/file/34896a4a8e24ebdf9ea06.jpg")
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
